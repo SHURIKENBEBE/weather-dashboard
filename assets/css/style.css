@@ -1,0 +1,75 @@
+:root{
+    --color1:#e7eaf6;
+    --color2: #a2a8d3;
+    --color3: #38598b;
+    --color4: #113f67;
+    --color5: #deecfc; 
+    --color6: #f7fbfc;
+    --color7: #66bfbf;
+    --color8: #defcf9; 
+    --color9: #cadefc; 
+    --color10: #c3bef0; 
+    --font1: 'Notable', sans-serif;
+    --font2: 'Orbitron', sans-serif;
+    --font3: 'Press Start 2P', cursive;
+    --font4: 'Quantico', sans-serif;
+    --font5: 'Sarpanch', sans-serif;
+    --font6: 'Share Tech Mono', monospace;
+    --font7: 'VT323', monospace;
+}
+
+
+
+html, body{
+    height: 100%;
+    
+}
+
+section{
+    background-color: var(--color5);
+}
+
+body{
+    background-color: var(--color10);
+}
+
+h5{
+    font-family: var(--font2);
+}
+
+header{
+    font-size: 50px;
+    font-family: var(--font6);
+    text-align: center;
+}
+
+
+button{
+    display: block;
+    padding: 2px;
+    width: 180px;
+    background-color: var(--color7);
+    border: 2px solid var(--color5);
+    color: var(--color5);
+
+
+}
+
+
+footer{
+    margin-bottom: 0;
+    font-family: var(--font7);
+    background-color: var(--color1);
+}
+
+
+
+input.btn{
+    display: block;
+    width: 180px;
+    background-color: var(--color2);
+    border: 2px solid var(--color5);
+    color: var(--color5);   
+    font-family: var(--font2);
+}
+
