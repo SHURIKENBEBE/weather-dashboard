@@ -1,4 +1,11 @@
-# weather-dashboard
+# Weather Dashboard
+
+## Description: 
+### This is a weather dashboard which generates weather data by city as well as the future 5 days of data of a desired (US) city. 
+
+## WHAT WHY & HOW 
+### Want to generate a functional weather dashboard by using the OpenWeather API and Javascript and below is the user story and acceptance criteria 
+
 
 ## USER STORY
 ### AS A traveler
@@ -18,5 +25,6 @@
 ### THEN I am again presented with current and future conditions for that city
 
 ## CHALLENGES & TO BE UPDATED
-### A few challenges presented itself as I am writing the code- i'm having trouble with getting the api to work or to generate any data; the biggest challenge will be converting the city to coordinates in order to find the correct data for the location. Due to time constraint, i will have to come back and work on this further. 
+### Many challenges presented itself as I am writing the code- specifically having trouble with getting the api to work to generate any data. With the OpenWeather API taking in longitudes and latitudes, the biggest challenge is converting the city to coordinates in order to find the correct data for the correct location.As a result, no data was able to be displayed or stored in local storage. Due to time constraint, i will have to come back and work on this further. 
 
+### deployed website can be found here: https://github.com/SHURIKENBEBE/weather-dashboard
